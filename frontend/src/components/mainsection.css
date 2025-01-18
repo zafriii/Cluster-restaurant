@@ -1,0 +1,479 @@
+.main-image img{
+    width: 100%;
+    height: 600px;
+  }
+
+  .content1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    font-size: 50px;
+    font-family: "Protest Strike", sans-serif;
+  }
+
+  .main-text{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;   
+  }
+
+  .main-text2{
+    font-size: 70px;
+  }
+  
+  .main-text:first-of-type {    
+    animation: showup 7s infinite;
+  }
+  
+  .main-text:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  .main-text2:last-of-type span {
+    margin-left:-255px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-1650px; }
+      20% { margin-left:-1650px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+  
+  .content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size:20px ;
+  }
+
+  .image2 img{
+    height: 400px;
+    width: 400px;
+    overflow: hidden; 
+  }
+
+  .image2 {
+    transition: 0.3s;
+  }
+  
+  .image2:hover {
+    transform: scale(1.1);
+  }
+
+  .main-text3{
+    color: white;
+    margin-left: 30px;
+  }
+
+
+  .explore {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Protest Strike", sans-serif;
+    border-radius: 3px;
+    border: 2px solid yellow;
+    padding: 10px 10px;
+    margin-top: 30px;
+    box-shadow: .9px 1px 0 0 yellow, 1.5px 2px 0 0 yellow, 2.5px 3px 0 0 yellow, 3.5px 4px 0 0 yellow, 4.5px 5px 0 0 yellow, 5.5px 6px 0 0 yellow, 6.5px 7px 0 0 yellow, 7.5px 8px 0 0 yellow, 8.5px 9px 0 0 yellow, 9.5px 10px 0 0 yellow;
+    position: relative;
+    inset: 0;
+    cursor: pointer;
+    transform: rotateX(0), rotateY(0) rotateZ(0);
+    display: inline-block;
+    outline: 2px dashed transparent;
+    transition: all 600ms ease;
+}
+
+.explore:hover {
+    inset: 6px 0 5.5px 0;
+    transform: rotateX(5deg) rotateY(3deg) rotateZ(.25deg);
+    box-shadow: none;
+}
+
+.loved-dish h2{
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.loved-dish-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.food-details{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.loved-card-container{
+    border: 3px solid yellow;
+    height: 550px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(31, 29, 29);
+}
+
+.loved-image-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.loved-card-container:hover{
+    opacity: 0.8;
+}
+
+.rat-rev{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.rating{
+  display: flex;
+}
+
+.stars{
+  margin-left: 10px;
+}
+
+.review{
+  margin-left: 80px;
+}
+
+.offer{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  height: 300px;
+  font-size: 20px;
+  
+ 
+}
+
+.offer img{
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.offer button{
+  margin-top: 30px;
+  color: black;
+  background-color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-family: "Protest Strike", sans-serif;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.offer h2{
+  margin-left: 20px;
+}
+
+.offer p{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.offer-border{
+  border-left: 5px solid yellow;
+  height: 500px;
+}
+
+
+@media (max-width:1920px) {
+
+  .main-image img{
+    height: 800px;
+  }
+
+  .content1{  
+    top: 30%;
+    left: 70%;   
+  }
+
+  
+}
+
+@media (max-width:1400px) {
+
+  .main-image img{
+    height: 600px;
+  }
+
+  .content1{  
+    top: 40%;   
+  }
+
+  
+}
+
+@media (max-width:1250px) {
+
+  .loved-card-container{
+
+    height: 550px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  .loved-image-container img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    
+  }
+  .stars{
+    margin-left: 2px;
+  }
+
+  .review{
+    margin-left: 5px;
+  }
+}
+
+
+@media (max-width:1050px) {
+
+  .content1{  
+    top: 40%;
+    left: 70%;
+    font-size: 40px;   
+  }
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size:20px ;
+}
+
+.main-text2:last-of-type span {
+  margin-left:-255px;
+  animation: slidein 7s infinite;
+  font-size: 40px;
+}
+
+
+.image2 img{
+  height: 300px;
+  width: 300px;
+}
+
+.content2 p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.loved-dish-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: -15px;
+  
+}
+
+.loved-card-container{
+
+  height: 500px;
+  width: 400px;
+  
+}
+
+.loved-image-container img{
+  width: 250px;
+  height: 250px;
+  margin-left: 60px;
+  
+
+}
+
+.stars{
+  margin-left: 5px;
+}
+
+.review{
+  margin-left: 10px;
+}
+
+.food-details{
+  margin-left: 20px;
+}
+
+.offer{
+  margin-left: 30px;
+}
+
+.offer img{
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+}
+
+
+
+@media (max-width:600px) {
+
+  .content1{  
+    top: 40%;
+    left: 70%;
+    font-size: 30px;   
+  }
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size:20px ;
+}
+
+.main-text2:last-of-type span {
+  margin-left:-255px;
+  animation: slidein 7s infinite;
+  font-size: 30px;
+}
+
+
+.image2 img{
+  height: 300px;
+  width: 300px;
+  
+}
+
+.content2 p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.loved-dish-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: -15px;
+  
+}
+
+.loved-card-container{
+
+  height: 500px;
+  width: 330px;
+  
+}
+
+.loved-image-container img{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  
+
+}
+
+.stars{
+  margin-left: 5px;
+}
+
+.review{
+  margin-left: 10px;
+}
+
+.food-details{
+  margin-left: 20px;
+}
+
+.offer{
+  margin-left: 30px;
+}
+
+.offer img{
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+}
+
+
+@media (max-width:430px) {
+
+  .content1{  
+    top: 35%;
+    left: 60%;
+    font-size: 30px;   
+  }
+  .loved-card-container{
+    margin-left: 25px;
+  }
+}
+
+@media (max-width:390px) {
+
+  .loved-card-container{
+    margin-left: 25px;
+  }
+}

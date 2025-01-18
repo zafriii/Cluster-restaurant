@@ -1,0 +1,387 @@
+.hero-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.hero-main img{
+    height: 400px;
+    width: 600px;
+}
+
+.hero-main p{
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.hero-main h3{
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.location {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dinein {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.chef{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(39, 37, 37);
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.chef-image img{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+
+.cluster-special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.cluster-special img{
+    height: 400px;
+    width: 600px;
+    border: 2px solid yellow;
+}
+
+.cluster-special img {
+    transition: 0.3s;
+  }
+  
+  .cluster-special img:hover {
+    transform: scale(1.1);
+  }
+
+.cluster-special h2{
+    margin-left: 40px;
+}
+
+.cluster-special p{
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+span{
+    color: yellow;
+}
+
+.strength h3{
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    
+}
+
+.strength-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.strength-card{
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+}
+
+.strength-card .icon{
+    font-size: 40px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.strength-card h4{
+    margin-top: 20px;
+}
+
+.strength-card p{
+    margin-top: 20px;
+}
+
+@media (max-width:1050px) {
+
+    .hero-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .hero-main img{
+        height: 400px;
+        width: 100%;
+        margin-left: -60px;
+    }
+
+    .hero-main p{
+        color: white;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+    
+    }
+    
+    .hero-main h3{
+        color: white;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 30px;
+        font-family: "Protest Strike", sans-serif;
+        letter-spacing: 3px;
+    
+    }
+
+    .hero-main-text h4{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .chef{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(39, 37, 37);
+        margin-top: 40px;
+        margin-left:20px ;
+        font-size: 20px;
+        letter-spacing: 2px;
+        width: 95%;
+    }
+
+    .chef h3{
+        margin-top: 30px;
+    }
+    
+    .chef-image img{
+        height: 300px;
+        width: 300px;
+        margin-left: -20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+    }
+
+    .cluster-special{
+        margin-left: 20px;
+    }
+
+    .strength-container{
+        margin-left: -40px;
+        margin-right: 10px;
+    }
+
+    .strength-card{
+        height: 250px;
+    }
+
+}
+
+
+@media (max-width:670px) {
+
+    .hero-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .hero-main img{
+        height: 400px;
+        width: 100%;
+        margin-left: -60px;
+    }
+
+    .hero-main p{
+        color: white;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+    
+    }
+    
+    .hero-main h3{
+        color: white;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: 30px;
+        font-family: "Protest Strike", sans-serif;
+        letter-spacing: 3px;
+    
+    }
+
+    .hero-main-text h4{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .chef{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(39, 37, 37);
+        margin-top: 40px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .chef h3{
+        margin-top: 30px;
+    }
+    
+    .chef-image img{
+        height: 300px;
+        width: 300px;
+        margin-left: -20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+    }
+
+    .cluster-special{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left:20px;
+    }
+    
+    .cluster-special img{
+        height: 400px;
+        width: 300px;
+        border: 2px solid yellow;
+    }
+
+    .cluster-special h2{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .strength-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: -40px;
+       
+    }
+
+    .strength-card{
+       margin-top: 20px;
+    }
+    
+}
+
+@media (max-width:430px) {
+
+    .hero-main-text h3{
+        margin-left: -20px;
+    }
+
+    .hero-main-text h4{
+        margin-left: -20px;
+    }
+
+    .hero-main-text p{
+        margin-left: -20px;
+    }
+
+    .chef{
+        font-size: 15px;
+        margin-left: 8px;
+       
+        width: 95%;
+    }
+
+    .cluster-special{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left:-8px;
+    }
+    
+    .cluster-special img{
+        height: 400px;
+        width: 300px;
+        border: 2px solid yellow;
+    }
+
+    .cluster-special h2{
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    
+}
+
+@media (max-width:360px) {
+
+    .chef{
+        margin-left: 10px;
+        width: 95%;
+    }
+}
+

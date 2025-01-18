@@ -1,0 +1,305 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.contact h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 5px;
+}
+
+.contact h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.contact-inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 54, 54);
+    padding: 40px;
+    height: 400px;
+    width: 500px;
+    
+}
+
+.contact-inputs input {
+   padding: 10px 30px ;
+   width: 100%;
+   margin-top: 20px;
+   border: 2px solid yellow;
+   background-color: transparent;
+   margin-left: 10px;
+   outline: none;
+   font-size: 18px;
+   color: white;
+}
+
+.contact-inputs textarea {
+
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    background-color: transparent;
+    margin-left: 10px;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    color: white;
+}
+ 
+.contact-inputs .submit{
+    background-color: yellow;
+    color: black;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reservation{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 5px;
+    height: 1200px; 
+    /* background-image: url('images/resturantnew.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    margin-top: 100px;  
+}
+
+.reservation h3{
+    margin-top: 20px;
+    font-size: 20px;
+   
+ 
+ }
+
+.reservation p{
+   margin-top: 20px;
+   font-size: 20px;
+
+  
+}
+
+/* .res-img{
+    height: 600px;
+    width: 100%;
+} */
+
+.reserve-inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 85, 85);
+    padding: 40px;
+    height: 1000px;
+    width: 500px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    
+    
+}
+
+.reserve-inputs label{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.reserve-inputs input {
+    padding: 10px 30px ;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    background-color: transparent;
+    margin-left: 10px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+ }
+
+ .reserve-inputs input::placeholder{
+    color: white;
+ }
+
+ .reserve-inputs textarea::placeholder{
+    color: white;
+ }
+
+
+ .reserve-inputs textarea {
+ 
+     width: 100%;
+     margin-top: 20px;
+     border: 2px solid yellow;
+     background-color: transparent;
+     margin-left: 10px;
+     outline: none;
+     resize: none;
+     font-size: 18px;
+     color: white;
+ }
+  
+ .reserve-inputs .submit{
+     background-color: yellow;
+     color: black;
+     font-family: "Protest Strike", sans-serif;
+     font-weight: 600;
+     cursor: pointer;
+ }
+
+ .thanks-popup p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+ @media (max-width:1000px) {
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+ 
+    .contact-inputs{
+        height: 500px;
+        width: 450px;
+        margin-top: 40px;
+        
+    }
+
+    .reservation{
+       
+        font-size: 20px;
+        font-family: "Protest Strike", sans-serif;
+        letter-spacing: 5px;
+        height: 1200px; 
+        
+    }
+
+    .reservation p{
+       
+        font-size: 20px;
+        margin-left: 20px;
+        letter-spacing: 2px;
+       
+    }
+
+    .reserve-inputs{
+       
+        width: 470px;
+
+    }  
+    
+ }
+
+
+
+
+ @media (max-width:600px) {
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+ 
+    .contact-inputs{
+        height: 500px;
+        width: 400px;
+        margin-top: 40px;
+        
+    }
+
+    .reservation{
+       
+        font-size: 20px;
+        font-family: "Protest Strike", sans-serif;
+        letter-spacing: 5px;
+        height: 1200px; 
+        
+    }
+
+    .reservation p{
+       
+        font-size: 20px;
+        margin-left: 20px;
+        letter-spacing: 2px;
+       
+    }
+
+    .reserve-inputs{
+       
+        width: 420px;
+
+    }  
+    
+ }
+
+ @media (max-width:430px) {
+
+    .contact-inputs{
+        height: 500px;
+        width: 380px;
+        margin-top: 40px;
+        
+    }
+
+    .reserve-inputs{
+       
+        width: 370px;
+
+        }  
+ }
+
+ @media (max-width:390px) {
+
+    .contact-inputs{
+        height: 500px;
+        width: 350px;
+        margin-top: 40px;
+        margin-left: 1px;
+        
+    }
+
+    .reserve-inputs{
+       
+        width: 350px;
+
+        }  
+ }
