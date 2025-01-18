@@ -2,6 +2,12 @@
 
 A sleek and modern **Restaurant Website** 🏨 featuring a **Food Ordering System** 🍕. This project focuses on a responsive front-end and integrates a minimal Node.js API to dynamically fetch and display the menu.  
 
+
+## 🔗 Live Demo 
+<a href = 'https://cluster-resturant-backend.onrender.com' > https://cluster-resturant-backend.onrender.com</a>
+
+API endpoint - <a href = 'https://cluster-resturant-backend.onrender.com/api/foods' > https://cluster-resturant-backend.onrender.com/api/foods</a>
+
 ---
 
 ## 🌟 Features  
