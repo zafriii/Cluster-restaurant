@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Website with Food Ordering  
+# 🍽️ Cluster Restaurant Website with Food Ordering  
 
 A sleek and modern **Restaurant Website** 🏨 featuring a **Food Ordering System** 🍕. This project focuses on a responsive front-end and integrates a minimal Node.js API to dynamically fetch and display the menu.  
 
