@@ -19,3 +19,7 @@ API endpoint - <a href = 'https://cluster-resturant-backend.onrender.com/api/foo
 - 📍 **Restaurant Information**: Display location, hours of operation, and contact details.  
 
 ### ⚙️ Back-End API  
+- 🍴 **Menu Management API**: A lightweight Node.js API to fetch menu data dynamically.
+
+### Deploymet 
+- On render
